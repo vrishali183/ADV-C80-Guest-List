@@ -8,14 +8,16 @@ function submit(){
     console.log(GuestList)
     var length_of_names = GuestList.length
     console.log(length_of_names);
-    document.getElementById("Displayname").innerHTML = GuestList.toString();
+    //add Displayname
+    document.getElementById("").innerHTML = GuestList.toString();
     
 }
 function sorting(){
-    GuestList.sort();
+  // Add   GuestList.sort();
     var i = GuestList.join("<br>");
     console.log(GuestList);
-    document.getElementById("sorted").innerHTML = i.toString();
+    //add sorted
+    document.getElementById("").innerHTML = i.toString();
 
 }
 function show(){
